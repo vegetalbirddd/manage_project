@@ -22,10 +22,15 @@ export default {
             if(val.name !== 'home') {
                 const index = state.tabsList.findIndex(item => item.name === val.name)
                 //如果不存在
-                if(index == -1){
+                if(index == -1){ 
                     state.tabsList.push(val)
                 }
             }
+        },
+        deleteItemInTabsList(state,index)
+        {
+            state.tabsList.splice(index,1)
+            
         },
     }
 }

@@ -41,8 +41,6 @@ export default {
   data() {
     return {};
   },
-  created() {},
-  computed: {},
   methods: {
     handleMenu() {
       this.$store.commit("isCollapseMenu");
@@ -81,6 +79,7 @@ export default {
     margin-top: 5px;
     .el-breadcrumb__inner {
       font-weight: normal;
+      cursor: pointer;
       &.is-link {
         color: #666;
       }
@@ -92,4 +91,5 @@ export default {
       }
   }
 }
+
 </style>>

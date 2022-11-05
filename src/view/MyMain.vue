@@ -8,7 +8,10 @@
         <el-header>
           <common-header />
         </el-header>
+        <common-tag/>
         <el-main>
+            <!-- 路由出口 -->
+            <!-- 路由匹配到的組件將渲染在這裏 -->
           <router-view></router-view>
         </el-main>
       </el-container>
@@ -18,11 +21,13 @@
 <script>
 import NavMenu from "../components/NavMenu.vue";
 import CommonHeader from "../components/CommonHeader.vue";
+import CommonTag from "../components/CommonTag.vue"
 export default {
   name: "my-main",
   components: {
     NavMenu,
     CommonHeader,
+    CommonTag,
   },
 };
 </script>

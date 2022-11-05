@@ -135,7 +135,7 @@ export default {
   width: 200px;
 }
 .el-menu-vertical-demo {
-  height: 110vh;
+  height: 118vh;
   overflow: hidden;
 
   border: 1px solid #545c64;
