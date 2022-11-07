@@ -38,7 +38,7 @@ export default {
       
       this.$store.commit("deleteItemInTabsList", index);
 
-      if (this.tags[index - 1].name !== this.$route.name)  {
+      if (item.name === this.$route.name)  {
         this.$router.push({ name: this.tags[index - 1].name });
       }
 
