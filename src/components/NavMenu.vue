@@ -54,21 +54,21 @@ export default {
     return {
       menuData: [
         {
-          path: "/",
+          path: "/home",
           name: "home",
           label: "首页",
           icon: "s-home",
           url: "Home/Home",
         },
         {
-          path: "/mall",
+          path: "/home/mall",
           name: "mall",
           label: "商品管理",
           icon: "video-play",
           url: "MallManage/MallManage",
         },
         {
-          path: "/user",
+          path: "/home/user",
           name: "user",
           label: "用户管理",
           icon: "user",
@@ -79,14 +79,14 @@ export default {
           icon: "location",
           children: [
             {
-              path: "/page1",
+              path: "/home/page1",
               name: "page1",
               label: "页面1",
               icon: "setting",
               url: "Other/PageOne",
             },
             {
-              path: "/page2",
+              path: "/home/page2",
               name: "page2",
               label: "页面2",
               icon: "setting",

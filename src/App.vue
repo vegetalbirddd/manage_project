@@ -9,12 +9,15 @@
 import Home from './view/Home.vue'
 import User from './view/User.vue'
 import MyMain from './view/MyMain.vue'
+import Login from './view/Login.vue'
+
 export default {
   name: "App",
-  components: {
+  components: {Login,
     Home,
     User,
-    MyMain
+    MyMain,
+   
   }
 };
 </script>
